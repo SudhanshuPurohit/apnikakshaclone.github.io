@@ -1,0 +1,506 @@
+/* MOBILE SCREEN CSS */
+
+@media screen and (max-width: 1358px){
+
+    /* DOWNLOAD APNI KAKSHA APP MOBILE CSS */
+    .download_container_discription > h1{
+        font-size: 2rem;
+    }
+
+    .download_container_discription > p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1280px){
+
+    /* LANDING PAGE (FIRST SECTION) MOBILE CSS */
+
+    .navigation{
+        height: 76px
+    }
+
+    .apni_btn{
+        height: 76px;
+    }
+
+    .apni_btn > button{
+        height: 76px;
+        width: 90%;
+    }
+
+    .nav{
+        width: 38vw;
+    }
+    
+    .nav_btn{
+        font-size: 1.5vw;
+    }
+
+    /* COURSES SECTION(THIRD SECTION) MOBILE CSS */
+
+    .course_card{
+        padding: 90px 30px;
+    }
+
+    .course_card > h1{
+        font-size: 2rem;
+    }
+
+    /* ABOUT AMAN DHATHRWAL (FOURTH SECTION )MOBILE CSS */
+
+    .about_aman{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .aman_disc{
+        width: 30vw;
+    }
+
+    /* CHANNEL CARDS (FIFTH SECTION) MOBILE CSS */
+    
+    .our_channel{
+            grid-template-rows: auto;
+            grid-template-columns: 1fr;
+    }
+
+    .our_channel > h1{
+        grid-column: 1/2;
+    }
+
+    
+    /* THE SUBSCRIBER AND VIEW COUNTER MOBILE CSS */
+
+    .subscriber_views_counter{
+        flex-direction: column;
+    }
+
+    .total_subscriber_container{
+        width: 90%;
+    }
+
+    .total_views_container{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    /* NAVIGATION BAR MOBILE CSS :-) */
+
+    #hamburger{
+       display: block;
+       margin: 10px 24px;
+    }
+
+    #hamburger span{
+       font-size: 36px;
+       cursor: pointer;
+    }
+
+    .navigation{
+        justify-content: space-between;
+    }
+
+    .apni_btn{
+        margin: 0px 20px;
+        width: 122px;
+    }
+
+    .apni_btn button{
+        width: 70%;
+    }
+
+    .nav{
+        display: none;
+        margin: 30px 4px 90px 4px;
+    }
+/*     
+    .first_section_resposive{
+        position: sticky;
+        top: 0px;
+        right: 0px;
+    } */
+
+    .navigation_responsive{
+        /* height: 200vh; */
+        width: 100vw;
+        background-color: white;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.112);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+    }
+
+    .nav_responsive{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        /* border: 2px solid red; */
+        /* height: 150px; */
+    } 
+    
+    .nav_btn{
+        font-size: 1.6rem;
+        margin: 12px 5px;
+        text-align: center;
+        font-weight: 500;
+    } 
+
+    .right_nav_div{
+        display: none;
+        width: 30vw;
+        /* height: 30vh; */
+        justify-content: space-around;
+    }
+
+    .right_nav_div_responsive{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .android_btn{
+        height: 70px;
+        width: 150px;
+        color: white;
+        font-weight: 500;
+        font-size: 1.6rem;
+        cursor: pointer;
+        border: none;
+        border-radius: 35px;
+        margin: 7px;
+    }
+    
+
+    
+    /* SECOND SECTION MOBILE CSS :-) */
+
+    #landing_page{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 100px;
+    }
+
+    #landing_page > div > p{
+        font-size: 4rem;
+    }
+
+    #illustration_div{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #illustration_div > img{
+        width: 90vw;
+    }
+
+
+    /* THIRD SECTION MOBILE CSS */
+
+    .course{
+        padding: 40px 11px;
+        margin: 10px 0px;
+    }
+
+    .course_card{
+        padding: 40px 15px;
+    }
+
+    .course_card:hover{
+        transform: none;
+        transition: none;
+    }
+
+    /* FOURTH SECTION MOBILE CSS */
+
+    .about_aman{
+        flex-flow: column-reverse;
+        align-items: center;
+    }
+    
+    .aman_img{
+        width: 80vw;
+    }
+
+    .aman_disc{
+        width: 50vw;
+    }
+
+    /* SOCIAL MEDIA DIV MOBILE CSS */
+
+    .social_media{
+        display: none;
+    }
+
+
+    /* DOWNLOAD APNI KAKSHA APP MOBILE CSS */
+
+    .download_container{
+        flex-direction: column;
+    }
+
+    .download_container_discription{
+        width: 80%;
+    }
+
+    .download_container_discription > h1 {
+         font-size: 2rem;
+         text-align: center;
+    }
+
+    .download_container_image{
+        width: 70%;
+    }
+
+    .download_container_image > img{
+        width: 100%;
+    }
+
+
+    /* FOOTER CSS(LAST SECTION) */
+
+    .footer{
+        grid-template-columns: 1fr;
+    }
+
+    .footer_apni_kaksha_logo > img {
+        margin: 150px 50px 50px 50px;
+    }
+    
+    .footer_links{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact_us{
+        grid-column: 1/3;
+        margin: 20px 10px;
+    }
+
+    .support_links{
+      
+        margin: 20px 10px;
+    }
+
+    .our_channel_links{
+        
+        margin: 20px 10px;
+    }
+
+    .footer_social_media_links{
+        grid-column: 1/2;
+    }
+
+    .copy_rights{
+        grid-column: 1/2;
+    }
+   
+}
+
+@media screen and (max-width: 768px){
+
+    /* SECOND SECTION MOBILE CSS */
+
+
+    #landing_page > div > p{
+        font-size: 3rem;
+    }
+
+    #illustration_div{
+        display: none;
+    }
+
+
+    /*  COURSES CARDS SECTION(THIRD SECTION) MOBILE CSS */
+
+    .course{
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        padding: 40px 50px;
+    }
+
+    /* ABOUT AMAN SECTION MOBILE CSS */
+    
+
+    .ellipse_shape > img {
+        left: 8px;
+        top: 33px;
+        height: 100px;
+    }
+
+    /* CHANNEL CARDS (FIFTH SECTION) MOBILE CSS */
+    
+    .our_channel{
+        grid-gap: 60px;
+        padding: 20px;
+        padding-top: 150px;
+    }
+
+    /* FOOTER CSS(LAST SECTION) */
+    
+    .footer_apni_kaksha_logo > img {
+        margin: 30px;
+    }
+
+    .footer_links{
+        grid-template-columns: 1fr;
+    }
+
+    .contact_us{
+        grid-column: 1/2;
+        margin: 20px 10px;
+    }
+    
+    .our_channel_links{
+        
+        margin: 20px 10px;
+    }
+    
+    .support_links{
+      
+        margin: 20px 10px;
+    }
+
+    .footer_social_media_links > img {
+        /* border: 2px solid red; */
+        width: 2.4rem;
+        height: 2.6rem;
+        margin: 16px 10px;
+    }
+
+    .copy_rights > p{
+        font-family: 'Poppins' , sans-serif;
+        margin-right: 10px;
+        /* border: 2px solid red; */
+    }
+    
+}
+
+@media screen and (max-width: 640px){
+
+    /* THIRD SECTION MOBILE CSS */
+
+    .course{
+        padding: 40px 2px;
+    }
+
+    .course_card{
+        padding: 29px 11px;
+        min-height: 700px;
+    }
+
+    .course_card > h1{
+        font-size: 1.8rem;
+        margin: 10px 13px;
+    }
+
+    .course_card > h2{
+        font-size: .95rem;
+        margin: 10px 13px;
+    }
+    .course_card > h3{
+        font-size: 1rem;
+        margin: 10px 13px;
+    }
+    
+    .course_card > ul > li{
+        font-size: 1rem;
+    }
+
+
+    /* FOURTH SECTION MOBILE CSS */
+
+
+    .aman_disc{
+        width: 70vw;
+    }
+
+    .aman_disc h1{
+        font-size: 2rem;
+    }
+
+    
+
+    .ellipse_shape {
+        width: 806px;
+        height: 350px;
+    }
+
+    .ellipse_shape> h1{
+        font-size: 2.4rem;
+    }
+
+    .ellipse_shape > img {
+        position: absolute;
+        left: 6px;
+        top: 41px;
+        height: 75px;
+        display: none;
+    }
+
+    /* THE SUBSCRIBER AND VIEW COUNTER MOBILE CSS */
+
+    .total_subscriber_container > h1 , .total_views_container > h1{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .total_views > div , .total_subscriber > div{
+        font-size: 1.2rem;
+        border-radius: .50rem;
+        margin: 4px .1rem;
+        padding: .2rem .5rem;
+    }
+
+
+}
+
+@media screen and (max-width: 360px){
+
+    
+    /* COURSES CARDS (THIRD SECTION)CSS MOBILE CSS */
+
+    .course_card{
+      min-width: 300px;
+      min-height: 576px;
+    }
+
+    .course_card > h1 {
+        font-size: 1.3rem;
+    }
+
+    .course_card > h2 {
+        font-size: .8rem;
+        margin-bottom: 4px;
+    }
+
+    .course_card > h3 {
+        font-size: .9rem;
+        margin-top: 4px;
+    }
+
+    .course_card_learn_more {
+        width: 99.8px;
+        font-size: 0.8rem;
+        margin: 13px 13px;
+    }
+
+    .course_card > ul > li {
+        font-size: 0.7rem;
+    }
+
+    .course_card > ul > li > span {
+        font-size: 10px;
+        margin: 4px;
+        margin-left: 13px;
+    }
+
+    .our_channel_card_disc > h1 {
+        font-size: 1.8rem;
+    }
+}

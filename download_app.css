@@ -1,0 +1,63 @@
+/* THE DOWNLOAD APP SECTION (SIXTH SECTION) CSS*/
+
+.download_container_section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.download_container{
+    width: 83%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(254,234,229,1);
+    margin: 100px 0px;
+    /* border: 2px solid red; */
+    border-radius: 1rem;
+    position: relative;
+}
+
+.download_container_discription{
+    width: 47%;
+    margin: 45px;
+    padding: 10px 10px ;
+    /* border: 2px solid blue; */
+}
+
+.download_container_discription > h1{
+    color: rgba(22,22,55,1);
+    font-size: 3.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 11px 11px;
+
+}
+
+.download_container_discription > p{
+    color: rgba(22,22,55,1);
+    font-family: 'Poppins' , sans-serif;
+    font-size: 1.225rem;
+    font-weight: 300; 
+    margin: 11px 11px;
+
+}
+
+.download_container_image{
+    display: flex;
+    align-items: flex-end;
+    width: 47%;
+    height: 100%;
+    /* border: 2px solid black; */
+    vertical-align: middle;
+    /* position: absolute; */
+    /* bottom: 0px; */
+}
+
+.download_container_image > img{
+    width: 70%;
+    margin-top: 80px;
+    /* border: 2px solid green; */
+    border-radius: 6px;
+}

@@ -1,0 +1,61 @@
+/* LANDING INTODUCTION(SECOND SECTION) */
+
+#landing_page{
+    /* border: 2px solid rgb(247, 6, 6); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: -1;
+}
+
+#tour_div{
+    margin: 5px 5px 5px 40px; 
+    padding: 10px 10px 10px 10px; 
+}
+
+#landing_page > div > p {
+    color:rgba(0, 0, 0, 0.904);
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.5vw;
+    font-weight: 400;
+    margin: 0px 10px 30px 10px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+
+#landing_page > div > button{
+    border: 2px solid #2c2c96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2c2c96;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding: 15px;
+    margin: 10px 10px 0px 10px;
+    border-radius: 11px;
+    cursor: pointer;
+    
+}
+
+#landing_page > div > button > a{
+    text-decoration: none;
+}
+
+#landing_page > div > button > a:hover{
+    text-decoration: underline #2c2c96;
+}
+
+#landing_page > div > button:hover{
+    transform: scale(1.1);
+    transition: transform .4s ease;
+}
+
+#illustration_div {
+    width: 40vw;
+    margin: 16px 0px 10px 10px;
+}

@@ -1,0 +1,57 @@
+/* SUBSCRIBER AND VIEWS COUNTER CSS */
+
+.subscriber_views_counter{
+    width: 99vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin: 100px 4px;
+}
+
+.total_subscriber_container{
+    width: 40%;
+    display: flex;
+    flex-direction: column; 
+    place-content: center;
+    margin: 20px;
+}
+
+.total_subscriber{
+    display:  flex;
+    place-content: center;
+    /* border: 2px solid green; */
+}
+
+.total_views_container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    margin: 20px;
+}
+
+.total_views{
+    /* width: 40%; */
+    display: flex;
+    place-content: center;
+    /* border: 2px solid rgb(240, 54, 21); */
+}
+
+.total_subscriber_container > h1 , .total_views_container > h1{
+    text-align: center;
+    color: rgba(22,22,55,1);
+    font-family: 'Popins' , sans-serif;
+    font-size: 2.7rem;
+    font-weight: 400;
+}
+
+.total_views > div , .total_subscriber > div{
+    color: rgba(22,22,55,1);
+    font-size: 2.5rem;
+    font-family: 'Popins' , sans-serif;
+    background-color: rgba(243,244,246,1);
+    border-radius: .75rem;
+    margin: 4px .25rem;
+    padding: .5rem 1rem;
+}

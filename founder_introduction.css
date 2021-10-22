@@ -1,0 +1,118 @@
+
+/* FOUNDER INTRODUCTION (FOURTH SECTION CSS)  */
+
+
+.about_aman{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* flex-flow: column-reverse; */
+    background-color: rgba(243,243,255,1);
+    /* border: 2px solid green; */
+    padding: 60px 20px;
+}
+
+.aman_img{
+    width: 47vw;
+    /* border: 4px solid rgb(245, 5, 5); */
+    margin: 20px 20px
+}
+
+.aman_img > img{
+    width: 100%;
+}
+
+.aman_disc{
+    width: 23vw;
+    /* border: 2px solid orangered; */
+    padding: 40px 20px;
+    margin: 20px 20px;
+}
+
+.aman_disc > h1{
+    font-size: 2.125rem;
+    font-family: "ROBOTO" , sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+
+.aman_disc > p{
+    font-size: 0.99rem;
+    font-family: "ROBOTO" , sans-serif;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.aman_disc > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(243,243,255,1);
+    border: 2px solid #2c2c96;
+    color: #2c2c96;
+    font-size: 1.1rem;
+    padding: 10px 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 30px 0px;
+}
+
+.aman_disc > button > a{
+    text-decoration: none;
+}
+
+.aman_disc > button > i{
+    font-size: 26px;
+}
+
+.aman_disc > button:hover{
+    transform: scale(1.1);
+    transition: transform .4s ease;
+}
+
+.aman_disc > button:hover > a{
+    text-decoration: underline #2c2c96;
+
+}
+
+/* ELLIPSE SHAPE IN THE ABOUT AMAN SECTION CSS */
+
+.hustler_ellipse_shape{
+    /* background-color: rgba(243,243,255,1); */
+    background: linear-gradient(180deg, rgba(243,243,255,1) 0% , rgba(243,243,255,1) 50%, rgba(213,243,255,1) 50%, rgba(213,243,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+    
+}
+
+.ellipse_shape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    width: 970px;
+    height: 500px;
+    /* border: 2px solid black; */
+    border-radius: 800px/450px; 
+    z-index: 5;
+}
+
+.ellipse_shape > img {
+    position: absolute;  
+    left: 25px;  
+    top: 20px;
+}
+
+.ellipse_shape >h1{
+    color: rgba(20, 20, 20, 0.904);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 2.5rem;
+}
